@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Calculator</h2>
+    <forms>
+        <table border="0">
+            <tr><input type="text" name="txt1" id="txt1"></tr>
+             <tr>
+                <td><input type="button" value="9" onclick="equation(this.value);"></td>
+                <td><input type="button" value="8" onclick="equation(this.value);"></td>
+                <td><input type="button" value="7" onclick="equation(this.value);"></td>
+                <td><input type="button" value="*" onclick="equation(this.value);"></td>
+             </tr>
+             <tr>
+                <td><input type="button" value="6" onclick="equation(this.value);"></td>
+                <td><input type="button" value="5" onclick="equation(this.value);"></td>
+                <td><input type="button" value="4" onclick="equation(this.value);"></td>
+                <td><input type="button" value="+" onclick="equation(this.value);"></td>
+             </tr>
+             <tr>
+                <td><input type="button" value="3" onclick="equation(this.value);"></td>
+                <td><input type="button" value="2" onclick="equation(this.value);"></td>
+                <td><input type="button" value="1" onclick="equation(this.value);"></td>
+                <td><input type="button" value="0" onclick="equation(this.value);"></td>
+             </tr>
+             <tr>
+                <td><input type="button" value="/" onclick="equation(this.value);"></td>
+                <td><input type="button" value="=" onclick="calculation(this.value);"></td>
+                <td><input type="button" value="C" onclick="clear(this.value);"></td>
+                <td><input type="button" value="-" onclick="equation(this.value);"></td>
+             </tr>
+        </table>
+    </forms> 
+    <script src="calc.js"></script> 
+</body>
+</html>
